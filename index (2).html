@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oriba Sahar — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="grid-bg"></div>
+
+<header>
+  <nav>
+    <div class="logo"><span class="dot"></span>ORIBA.SAHAR</div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">MENU</button>
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#stack">Stack</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<main class="wrap">
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero">
+      <div>
+        <div class="eyebrow">Rawalpindi, Pakistan · Open to internships &amp; freelance</div>
+        <h1>Full-stack developer,<br>wiring the <span>AI layer</span> on top of the stack.</h1>
+        <p class="lede">Final-year IT student building production-quality MERN applications — REST APIs, JWT auth, and React interfaces — and now extending that stack upward into AI-assisted, agentic web apps.</p>
+        <div class="cta-row">
+          <a href="#projects" class="btn btn-primary">View Projects →</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+
+      <div class="stack-viz reveal">
+        <div class="signal-line"></div>
+        <div class="signal-dot"></div>
+
+        <div class="layer db">
+          <span class="tag">// 01 — persistence</span>
+          <span class="name">Database</span>
+          <span class="tag">MongoDB · Mongoose · MySQL · PostgreSQL</span>
+        </div>
+        <div class="layer api">
+          <span class="tag">// 02 — logic</span>
+          <span class="name">Backend</span>
+          <span class="tag">Node.js · Express · JWT · RBAC</span>
+        </div>
+        <div class="layer ui">
+          <span class="tag">// 03 — interface</span>
+          <span class="name">Frontend</span>
+          <span class="tag">React · Redux · Tailwind · Bootstrap</span>
+        </div>
+        <div class="layer ai">
+          <span class="tag">// 04 — intelligence</span>
+          <span class="name">AI Layer</span>
+          <span class="tag">TensorFlow.js · LangChain · Prisma/Drizzle · NeonDB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="eyebrow reveal">About</div>
+    <div class="about-grid">
+      <div class="reveal">
+        <h2>Building across the whole stack, one layer at a time.</h2>
+        <p class="muted" style="max-width:62ch; margin-bottom:16px;">
+          I'm a final-year IT student comfortable moving between database schema design, secure API architecture, and responsive UI work. My projects so far span collaborative task management, event discovery platforms, and e-commerce interfaces — each one built to be functional first, polished second.
+        </p>
+        <p class="muted" style="max-width:62ch;">
+          I'm currently extending that foundation into the AI layer: exploring Prisma/Drizzle with PostgreSQL and NeonDB for more modern data workflows, and TensorFlow.js and LangChain for AI-driven features inside web apps — with the goal of shipping full-stack products that reason, not just render.
+        </p>
+      </div>
+      <div class="spec-panel reveal">
+        <div class="spec-row"><span class="k">LOCATION</span><span class="v">Rawalpindi, Pakistan</span></div>
+        <div class="spec-row"><span class="k">EDUCATION</span><span class="v">B.Sc. IT — IIUI, 2023–2027</span></div>
+        <div class="spec-row"><span class="k">FOCUS</span><span class="v">MERN + AI-integrated apps</span></div>
+        <div class="spec-row"><span class="k">LANGUAGES</span><span class="v">English · Urdu · Punjabi</span></div>
+        <div class="spec-row"><span class="k">STATUS</span><span class="v" style="color:var(--teal);">Open to opportunities</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STACK -->
+  <section id="stack">
+    <div class="eyebrow reveal">Technical Stack</div>
+    <h2 class="reveal">Organized the way I build: layer by layer.</h2>
+    <div class="stack-grid">
+      <div class="skill-panel reveal">
+        <h3>◆ Frontend</h3>
+        <div class="chip-row">
+          <span class="chip">React.js</span><span class="chip">JavaScript ES6+</span>
+          <span class="chip">Redux / Toolkit</span><span class="chip">Zustand</span>
+          <span class="chip">Tailwind CSS</span><span class="chip">Bootstrap</span>
+          <span class="chip">HTML5 / CSS3</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <h3>◆ Backend</h3>
+        <div class="chip-row">
+          <span class="chip">Node.js</span><span class="chip">Express.js</span>
+          <span class="chip">REST API Design</span><span class="chip">JWT Auth</span>
+          <span class="chip">Role-Based Access Control</span>
+        </div>
+      </div>
+      <div class="skill-panel reveal">
+        <h3>◆ Data</h3>
+        <div class="chip-row">
+          <span class="chip">MongoDB</span><span class="chip">Mongoose</span>
+          <span class="chip">MySQL</span><span class="chip">PostgreSQL</span>
+          <span class="chip">Prisma</span><span class="chip">Drizzle</span><span class="chip">NeonDB</span>
+        </div>
+      </div>
+      <div class="skill-panel ai-panel reveal">
+        <h3>◆ AI &amp; Emerging (currently learning)</h3>
+        <div class="chip-row">
+          <span class="chip">TensorFlow.js</span><span class="chip">LangChain</span>
+          <span class="chip">Agentic web apps</span>
+        </div>
+      </div>
+    </div>
+    <div style="margin-top:20px;" class="reveal">
+      <div class="skill-panel">
+        <h3 style="color:var(--muted);">◆ Tools &amp; Practices</h3>
+        <div class="chip-row">
+          <span class="chip">Git</span><span class="chip">GitHub</span><span class="chip">JIRA</span>
+          <span class="chip">Trello</span><span class="chip">VS Code</span><span class="chip">Agile / Scrum</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="eyebrow reveal">Selected Work</div>
+    <h2 class="reveal">Projects</h2>
+
+    <div class="project-card reveal">
+      <div class="project-tab">BACKEND-HEAVY</div>
+      <div>
+        <div class="project-head">
+          <h3>Basecampy — Full-Stack Project Management Tool</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p>A collaborative project management API inspired by Basecamp, letting teams organize projects and break work down into tasks, subtasks, and notes.</p>
+        <ul>
+          <li>Built a RESTful API service supporting collaborative project management with nested task and subtask structures.</li>
+          <li>Implemented JWT-based authentication and role-based access control to secure endpoints and manage team permissions.</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">MongoDB</span><span class="chip">JWT</span>
+        </div>
+        <a href="https://github.com/Oriba-Sahar05" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-tab">FULL-STACK</div>
+      <div>
+        <div class="project-head">
+          <h3>EventHub — Event Discovery &amp; Booking Platform</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p>An event discovery and booking platform where users can browse listings, create events, and register for a spot with live updates.</p>
+        <ul>
+          <li>Built end-to-end event browsing, creation, and registration flows for organizers and attendees.</li>
+          <li>Wired up real-time updates so seat availability and event details stay current for every visitor.</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">Express</span><span class="chip">MongoDB</span>
+        </div>
+        <a href="https://github.com/Oriba-Sahar05" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card frontend reveal">
+      <div class="project-tab">FRONTEND</div>
+      <div>
+        <div class="project-head">
+          <h3>Expense Tracker — React</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p>A personal finance tracker for logging income and expenses and seeing where money actually goes.</p>
+        <ul>
+          <li>Built category-based expense and income entry with running totals and balance tracking.</li>
+          <li>Managed application state entirely on the frontend for a fast, responsive logging experience.</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">React</span><span class="chip">JavaScript</span><span class="chip">CSS3</span>
+        </div>
+        <a href="https://github.com/Oriba-Sahar05" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+    </div>
+
+    <div class="project-card reveal">
+      <div class="project-tab">FRONTEND</div>
+      <div>
+        <div class="project-head">
+          <h3>Amazon &amp; Netflix Clones — UI Practice</h3>
+          <span class="project-year">2024</span>
+        </div>
+        <p>Two interface-focused builds used to sharpen React fundamentals before moving into full-stack work.</p>
+        <ul>
+          <li>Amazon Clone: responsive e-commerce UI with product listings, search, and a working shopping cart.</li>
+          <li>Netflix Clone: streaming platform frontend with user authentication and dynamic content rendering.</li>
+        </ul>
+        <div class="chip-row">
+          <span class="chip">React</span><span class="chip">HTML</span><span class="chip">CSS</span>
+        </div>
+        <a href="https://github.com/Oriba-Sahar05" target="_blank" class="project-link">View on GitHub →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="eyebrow reveal">Experience</div>
+    <h2 class="reveal">Where I've worked</h2>
+    <div class="timeline reveal">
+      <div class="t-item">
+        <div class="t-date">2023 — 2024</div>
+        <div class="t-role">Operations Team Member</div>
+        <div class="t-org">MLSA YE (Microsoft Learn Student Ambassadors)</div>
+        <p class="desc">Planned and executed tech-focused events, workshops, and webinars for 100+ student participants.</p>
+      </div>
+      <div class="t-item">
+        <div class="t-date">2023 — 2024</div>
+        <div class="t-role">Student Ambassador</div>
+        <div class="t-org">Career Connect Pakistan</div>
+        <p class="desc">Promoted internships and industry webinars to students across Pakistan.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION + CERTS -->
+  <section id="education">
+    <div class="eyebrow reveal">Education &amp; Certifications</div>
+    <div class="two-col">
+      <div class="reveal">
+        <h2 style="font-size:16px; color:var(--teal); margin-bottom:16px;">Education</h2>
+        <div class="edu-item">
+          <div class="deg">B.Sc. Information Technology</div>
+          <div class="sch">International Islamic University, Islamabad · 2023–2027</div>
+          <div class="score">CGPA: 3.28 / 4.0</div>
+        </div>
+        <div class="edu-item">
+          <div class="deg">Intermediate (Pre-Medical, HSSC)</div>
+          <div class="sch">F.G. Post Graduate College for Women, Wah Cantt · 2021–2023</div>
+          <div class="score">Score: 980 / 1100</div>
+        </div>
+      </div>
+      <div class="reveal">
+        <h2 style="font-size:16px; color:var(--teal); margin-bottom:16px;">Certifications</h2>
+        <ul class="cert-list">
+          <li>Full Stack Engineer Certification — Udemy</li>
+          <li>Full Stack Web Development Bootcamp — ONE-UNI</li>
+          <li>Introduction to Git and GitHub — MLSA YE</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal">Contact</div>
+    <div class="contact-panel reveal">
+      <div>
+        <h2 style="margin-bottom:6px;">Let's build something.</h2>
+        <p class="muted">Open to full-stack roles, internships, and freelance work.</p>
+      </div>
+      <div class="contact-links">
+        <span>saharoriba@gmail.com <button class="copy-btn" id="copyEmail">copy</button></span>
+        <a href="tel:+923190783438">+92 319 078 3438</a>
+        <a href="https://linkedin.com/in/oriba-sahar" target="_blank">linkedin.com/in/oriba-sahar</a>
+        <a href="https://github.com/Oriba-Sahar05" target="_blank">github.com/Oriba-Sahar05</a>
+      </div>
+    </div>
+    <div class="fine">© 2026 Oriba Sahar — built with React fundamentals, a lot of coffee, and a growing AI layer.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
