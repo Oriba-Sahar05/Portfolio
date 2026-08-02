@@ -54,10 +54,11 @@
     padding:18px 32px; max-width:1120px; margin:0 auto;
   }
   .logo{
-    font-family:var(--mono); font-weight:600; font-size:15px;
-    letter-spacing:0.02em; color:var(--text);
-    display:flex; align-items:center; gap:8px;
+    font-family:var(--mono); font-weight:700; font-size:19px;
+    letter-spacing:0.03em; color:var(--text);
+    display:flex; align-items:center; gap:10px;
   }
+  @media (max-width:640px){ .logo{font-size:16px;} }
   .logo .dot{
     width:8px; height:8px; background:var(--amber); border-radius:50%;
     animation:blink 2.2s ease-in-out infinite;
